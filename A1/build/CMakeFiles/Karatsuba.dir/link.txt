@@ -1,0 +1,1 @@
+/usr/bin/g++-5    -g -O3 -DNDEBUG   CMakeFiles/Karatsuba.dir/Karatsuba.cpp.o  -o Karatsuba 

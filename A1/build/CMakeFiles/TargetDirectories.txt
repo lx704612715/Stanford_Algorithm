@@ -1,0 +1,3 @@
+/home/lixing/Algorithm/A1/build/CMakeFiles/rebuild_cache.dir
+/home/lixing/Algorithm/A1/build/CMakeFiles/edit_cache.dir
+/home/lixing/Algorithm/A1/build/CMakeFiles/Karatsuba.dir

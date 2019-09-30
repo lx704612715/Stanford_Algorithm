@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/lixing/Algorithm/A1/build",
+  "command": "/usr/bin/g++-5      -g -O3 -DNDEBUG   -o CMakeFiles/Karatsuba.dir/Karatsuba.cpp.o -c /home/lixing/Algorithm/A1/Karatsuba.cpp",
+  "file": "/home/lixing/Algorithm/A1/Karatsuba.cpp"
+}
+]
