@@ -8,7 +8,6 @@
 #define N 2000
 
 using namespace std;
-/*string &a, string &b, string &c, string &d , vector<string> abcd*/
 
 class BigNum
 {
@@ -24,8 +23,8 @@ public:
     BigNum operator +(const BigNum &b){
         BigNum c;
         int carry = 0;
-        int temp;
-        for (int i = 0; i << len || i << b.len; i++)
+        int temp = 0;
+        for (int i = 0; i < len || i < b.len; i++)
         {
             temp = data[i] + b.data[i] + carry;
             c.data[c.len++] = temp % 10;
@@ -84,9 +83,12 @@ public:
     return val;
 } */
 
-string power_to_string(const int &num, const int &basis){
-    uint64_t temp = pow(basis, num);
-    return to_string(temp);
+string power_to_string(const int &num){
+    string temp = "1"; 
+    for(int i=1; i<= num; i++){
+        temp += "0";
+    }
+    return temp;
 }
 
 BigNum Karatsuba(string input_1, string input_2){
@@ -100,10 +102,7 @@ BigNum Karatsuba(string input_1, string input_2){
     string d = input_2.substr(int(length/2));
     
     BigNum big_a, big_b, big_c, big_d;
-/*     BigNum big_b;
-    BigNum big_c;
-    BigNum big_d;
- */
+
     big_a.string_to_array(a);
     big_b.string_to_array(b);
     big_c.string_to_array(c);
@@ -114,8 +113,8 @@ BigNum Karatsuba(string input_1, string input_2){
     BigNum bd = big_b*big_d;
     BigNum ad_plus_bc = big_a*big_d + big_b*big_c;
     BigNum power_1, power_2;    
-    power_1.string_to_array(power_to_string(10, length));
-    power_2.string_to_array(power_to_string(10, length/2));
+    power_1.string_to_array(power_to_string(length));
+    power_2.string_to_array(power_to_string(length/2));
 
 /*     unsigned long long result = pow(10, length)*ac + pow(10, length/2)*(ad_plus_bc) + bd;*/    
     BigNum result = power_1*ac + power_2*ad_plus_bc + bd;
@@ -135,10 +134,11 @@ int main()
     BigNum test2;
     test2.string_to_array(input_2);
 
-    BigNum result = test1*test2;
+/*     BigNum result = test1*test2; */
 
-/*     BigNum result = Karatsuba(input_1, input_2); */
+    BigNum result = Karatsuba(input_1, input_2);
     
+/*     BigNum result = test1 + test2; */
     string output = result.get_result();
     cout << "result is" << output << endl; 
 

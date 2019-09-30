@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lixing/Algorithm/A1/Karatsuba.cpp" "/home/lixing/Algorithm/A1/build/CMakeFiles/Karatsuba.dir/Karatsuba.cpp.o"
+  "/home/lixing/Algorithm/Course_1/A1/Karatsuba.cpp" "/home/lixing/Algorithm/Course_1/A1/build/CMakeFiles/Karatsuba.dir/Karatsuba.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

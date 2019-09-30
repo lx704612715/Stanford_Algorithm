@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lixing/Algorithm/Course_1/A1/Karatsuba.cpp
+iostream
+-
+math.h
+-
+vector
+-
+sstream
+-
+stdlib.h
+-
+cstring
+-
+sstream
+-
+
