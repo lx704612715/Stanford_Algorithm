@@ -1,0 +1,1 @@
+/usr/bin/g++-5   -g   CMakeFiles/Counting_inversions.dir/Counting_inversions.cpp.o  -o Counting_inversions 

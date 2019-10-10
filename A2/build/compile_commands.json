@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/lixing/Algorithm/Course_1/A2/build",
+  "command": "/usr/bin/g++-5     -g   -o CMakeFiles/Counting_inversions.dir/Counting_inversions.cpp.o -c /home/lixing/Algorithm/Course_1/A2/Counting_inversions.cpp",
+  "file": "/home/lixing/Algorithm/Course_1/A2/Counting_inversions.cpp"
+}
+]

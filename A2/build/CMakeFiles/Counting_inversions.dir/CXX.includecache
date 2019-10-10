@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lixing/Algorithm/Course_1/A2/Counting_inversions.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+vector
+-
+

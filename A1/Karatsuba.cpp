@@ -75,14 +75,6 @@ public:
     }
 };
 
-/* unsigned long long string_to_uint(string input){
-
-    istringstream is(input);
-    unsigned long long val;
-    is >> val;
-    return val;
-} */
-
 string power_to_string(const int &num){
     string temp = "1"; 
     for(int i=1; i<= num; i++){
@@ -115,8 +107,6 @@ BigNum Karatsuba(string input_1, string input_2){
     BigNum power_1, power_2;    
     power_1.string_to_array(power_to_string(length));
     power_2.string_to_array(power_to_string(length/2));
-
-/*     unsigned long long result = pow(10, length)*ac + pow(10, length/2)*(ad_plus_bc) + bd;*/    
     BigNum result = power_1*ac + power_2*ad_plus_bc + bd;
     
     return result;
@@ -134,11 +124,8 @@ int main()
     BigNum test2;
     test2.string_to_array(input_2);
 
-/*     BigNum result = test1*test2; */
-
     BigNum result = Karatsuba(input_1, input_2);
     
-/*     BigNum result = test1 + test2; */
     string output = result.get_result();
     cout << "result is" << output << endl; 
 

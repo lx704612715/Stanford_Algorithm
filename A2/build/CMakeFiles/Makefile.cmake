@@ -21,13 +21,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/cmake-3.9.1/share/cmake-3.9/Modules/CMakeSystemSpecificInitialize.cmake"
   "/opt/cmake-3.9.1/share/cmake-3.9/Modules/CheckCXXCompilerFlag.cmake"
   "/opt/cmake-3.9.1/share/cmake-3.9/Modules/CheckCXXSourceCompiles.cmake"
-  "/opt/cmake-3.9.1/share/cmake-3.9/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-  "/opt/cmake-3.9.1/share/cmake-3.9/Modules/Compiler/GNU-C.cmake"
-  "/opt/cmake-3.9.1/share/cmake-3.9/Modules/Compiler/GNU-CXX.cmake"
-  "/opt/cmake-3.9.1/share/cmake-3.9/Modules/Compiler/GNU.cmake"
-  "/opt/cmake-3.9.1/share/cmake-3.9/Modules/Platform/Linux-GNU-C.cmake"
-  "/opt/cmake-3.9.1/share/cmake-3.9/Modules/Platform/Linux-GNU-CXX.cmake"
-  "/opt/cmake-3.9.1/share/cmake-3.9/Modules/Platform/Linux-GNU.cmake"
   "/opt/cmake-3.9.1/share/cmake-3.9/Modules/Platform/Linux.cmake"
   "/opt/cmake-3.9.1/share/cmake-3.9/Modules/Platform/UnixPaths.cmake"
   )
@@ -45,5 +38,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Karatsuba.dir/DependInfo.cmake"
+  "CMakeFiles/Counting_inversions.dir/DependInfo.cmake"
   )
