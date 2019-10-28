@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.5)
+project(MinCut)
+
+set (CMAKE_CXX_STANDARD 11)
+include(CheckCXXCompilerFlag)
+set(SOURCE MinCut.cpp)
+CHECK_CXX_COMPILER_FLAG("-std=c++11" COMPILER_SUPPORTS_CXX11)
+aux_source_directory(. DIR_TOOT_SRCS)
+set (CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -g")
+add_executable(MinCut MinCut.cpp)
